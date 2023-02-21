@@ -1,0 +1,39 @@
+body{
+
+    background-color: black;
+}
+
+.__main-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.__description-text{
+
+    color: white;
+}
+
+.__button-container{
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 820px){
+
+    .__button-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
